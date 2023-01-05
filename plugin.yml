@@ -1,0 +1,27 @@
+name: CustomWing
+
+api: 4.0.0
+
+version: 1.0.0
+
+main: Biswajit\Wings
+
+author: Biswajit
+
+commands:
+
+  customwing:
+
+    description: "Custom Wings V1.0"
+
+    usage: /customwing
+
+    permission: customwing.use
+
+    aliases: [cw, wings]
+
+permissions:
+
+  customwing.use:
+
+    default: true
